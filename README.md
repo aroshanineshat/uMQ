@@ -9,7 +9,7 @@
 uMQ is a minimal package derived from my main research project to achieve reliable and fast JSON communication.
 
 ## The story:
-I'm developing a full-fledged hardware+software product as my research project and I needed to instanciate IPC communication between two(or several) python processes. After looking around, packages with extreme capabilities. 0MQ(https://zeromq.org/) and RabbitMQ are just a couple of examples. My specific application didn't need to use all those features and I didn't see the necessity of going throug their steep lurning curve so I decided to write my own code.
+I'm developing a full-fledged hardware+software product as my research project and I needed to instanciate IPC communication between two(or several) python processes. After looking around, found packages with extreme capabilities. 0MQ(https://zeromq.org/) and RabbitMQ are just a couple of examples. My specific application didn't need to use all those features and I didn't see the necessity of going through their steep lurning curves so I decided to write my own code.
 
 As a hardware engineer, I deal with state machines all the time. I have used state machines in this code to reliably convert bytes to JSON packets.
 
